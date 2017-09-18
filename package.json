@@ -1,0 +1,30 @@
+{
+  "name": "eslint-plugin-no-shit",
+  "version": "0.0.0",
+  "description": "Disallow ⚠️ use of offensive 💪 language 💯",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "offensive",
+    "swear",
+    "swearing",
+    "shit",
+    "fuck"
+  ],
+  "author": "Jakub Sadura",
+  "main": "src/no-shit.js",
+  "scripts": {
+    "start": "jest --watchAll",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "eslint": "^4.7.0",
+    "jest": "^21.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jakubsadura/eslint-plugin-no-shit.git"
+  },
+  "LICENSE": "MIT"
+}
