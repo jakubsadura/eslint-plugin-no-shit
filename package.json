@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-no-shit",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Disallow ⚠️ use of offensive 💪 language 💯",
   "keywords": [
     "eslint",
