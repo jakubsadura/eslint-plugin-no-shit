@@ -29,15 +29,15 @@ $ npm install eslint-plugin-no-shit --save-dev
 
 ```json
 {
-    "rules": [
+    "rules": {
         "no-shit/be-polite": ["warn", {"nsfw": true}]
-    ]
+    }
 }
 ```
 
 ## How
 
-I created this plugin after watching great Frontend Masters course by @kentcdodds - you can check it out at https://github.com/kentcdodds/asts-workshop/
+I created this plugin after watching great Frontend Masters "Abstract Syntax Trees" course by @kentcdodds - you can check it out at https://github.com/kentcdodds/asts-workshop/
 
 # LICENSE
 
