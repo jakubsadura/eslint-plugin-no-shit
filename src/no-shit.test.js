@@ -1,5 +1,5 @@
 const {RuleTester} = require('eslint')
-const rule = require('./no-shit')
+const rule = require('./no-shit').rules['be-polite']
 
 const ruleTester = new RuleTester()
 ruleTester.run('no-shit', rule, {

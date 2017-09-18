@@ -1,7 +1,7 @@
 const isOffensive = text => typeof text === 'string' && /(shit|fuck)/.test(text.toLowerCase())
 const reportWith = message => (context, node) => context.report(node, message)
 
-module.exports = {
+const bePoliteRule = {
   meta: {
     docs: {
       description: 'Disallow use of offensive language',
@@ -45,4 +45,8 @@ module.exports = {
       },
     }
   },
+}
+
+module.exports.rules = {
+  'be-polite': bePoliteRule,  
 }
