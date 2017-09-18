@@ -34,3 +34,11 @@ $ npm install eslint-plugin-no-shit --save-dev
     ]
 }
 ```
+
+## How
+
+I created this plugin after watching great Frontend Masters course by @kentcdodds - you can check it out at https://github.com/kentcdodds/asts-workshop/
+
+# LICENSE
+
+MIT
